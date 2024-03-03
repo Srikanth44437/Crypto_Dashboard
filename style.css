@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Roboto&display=swap");
+
+body {
+  width: 90vw;
+  margin-top: 20px;
+  padding: 0;
+  background-color: black;
+  color: white;
+  font-family: inter;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+  align-items: center;
+}
+
+#mainContainer input {
+  width: 309px;
+  border: 2px solid black;
+  background-color: #1a1a1c;
+  color: white;
+  padding: 5px;
+  line-height: 29px;
+}
+
+#mainContainer button {
+  background-color: #1a1a1c;
+  color: white;
+  width: fit-content;
+  padding: 5px;
+  line-height: 29px;
+  text-align: left;
+}
+
+.positive-color {
+  color: greenyellow;
+}
+.negative-color {
+  color: red;
+}
+
+table {
+  margin-top: 10px;
+}
+td{
+  min-width: 130px;
+  padding: 10px;
+}
+.items{
+  display:flex;
+  justify-content: start;
+  align-items: center;
+} 
